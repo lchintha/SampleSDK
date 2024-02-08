@@ -2,9 +2,9 @@ package com.receipes.mealsfeature
 
 import com.receipes.mealsfeature.impl.MealsInterfaceImpl
 
-object MealInterfaceFactory{
+object MealsInterfaceFactory{
 
-    fun createMealInterface(
+    fun createMealsInterface(
         mealsListener: MealsListener
     ) : MealsInterface {
         return MealsInterfaceImpl(mealsListener)
