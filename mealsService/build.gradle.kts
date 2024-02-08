@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mealsservice"
+    namespace = "com.receipes.mealsservice"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.mealsservice"
+        applicationId = "com.receipes.mealsservice"
         minSdk = 29
         targetSdk = 34
         versionCode = 1

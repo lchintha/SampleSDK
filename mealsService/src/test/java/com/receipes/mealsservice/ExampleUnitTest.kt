@@ -1,4 +1,4 @@
-package com.example.mealsservice
+package com.receipes.mealsservice
 
 import org.junit.Test
 
