@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "SampleSDK"
 include(":app")
-include(":mealsservice")
+include(":mealsService")
+include(":mealsFeature")
