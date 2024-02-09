@@ -64,7 +64,7 @@ data class MealInfo(
     val measure5: String,
 )
 
-data class Error(
+data class MealError(
     val type: ErrorType,
     val code: String,
     val description: String

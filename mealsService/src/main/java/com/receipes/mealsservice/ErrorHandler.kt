@@ -1,8 +1,8 @@
 package com.receipes.mealsservice
 
 object ErrorHandler {
-    fun getError(type: ErrorType): Error{
-        return Error(
+    fun getError(type: ErrorType): MealError{
+        return MealError(
             type,
             type.code,
             type.description
