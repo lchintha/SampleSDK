@@ -2,8 +2,9 @@ package com.receipes.mealsservice
 
 import retrofit2.http.GET
 import retrofit2.http.Path
+import retrofit2.http.Query
 
 interface MealInformationService {
-    @GET("search.php?s={mealName}")
-    suspend fun getMealInformation(@Path("mealName") mealName: String): MealInformation
+    @GET("search.php")
+    suspend fun getMealInformation(@Query("s") mealName: String): MealInformation
 }
